@@ -5,29 +5,25 @@
 
 # 二、结构说明
 
-FreeTestGo #项目名称
-FreeTestGo #项目名称
-- ├─test_cass #用于存放测试用例的脚本
+
+- ├─data  # 用于存放用例等数据文件
 - │ └─init.py
-- │ └─test_cass_01.py #测试用例1
-- │ └─test_cass_02.py #测试用例2
-- ├─test_data #用于存放测试数据
-- │ └─test_data_1.xlsx #测试数据1
-- │ └─test_data_2.xlsx #测试数据2
+- │ └─接口测试示例.xlsx  #测试用例1
+- ├─demo  # 简单实现功能文件
+- │ └─init.py
+- │ └─demo1.xlsx #测试数据1
 - ├─test_get_data #用于存放读取测试数据的方法
 - │ └─init.py
 - │ └─get_test_data_01.py #方法1
 - │ └─get_test_data_02.py #方法2
-- ├─test_log #用于存放测试日志
-- │ └─test_log.txt
-- ├─test_report #用于存放allure生成测试报告依赖的文件
-- │ └─test_report.xml
-- ├─test_suite #用于存放测试流程的脚本
+- ├─logs # 用于存放测试日志
+- ├─test_report # pytest生成的报告文件
+- |-─scripts  # 脚本测试运行文件
 - │ └─init.py
-- │ └─test_suite_01.py #测试用例1
-- │ └─test_suite_02.py #测试用例2
-- ├─test_tools #用于存放封装的各种公共方法
+- │ └─test_case.py 
+- ├─settings  # 项目配置文件
 - │ └─init.py
-- │ └─test_tools.py
+- │ └─conf.py #测试用例1
+- ├─uti  # 单元测试中的用例
 - ├─pytest.ini #配置文件，可配置运行的参数以及选择需要运行的用例等
-- └─runtests.py #执行入口
+- └─run.py #执行入口
