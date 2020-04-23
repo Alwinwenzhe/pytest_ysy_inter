@@ -8,16 +8,12 @@
 
 - ├─data  # 用于存放用例等数据文件
 - │ └─init.py
-- │ └─接口测试示例.xlsx  #测试用例1
+- │ └─test_data_1.xlsx  #测试用例1
 - ├─demo  # 简单实现功能文件
 - │ └─init.py
-- │ └─demo1.xlsx #测试数据1
-- ├─test_get_data #用于存放读取测试数据的方法
-- │ └─init.py
-- │ └─get_test_data_01.py #方法1
-- │ └─get_test_data_02.py #方法2
+- │ └─接口示例.xlsx #测试数据1
 - ├─logs # 用于存放测试日志
-- ├─test_report # pytest生成的报告文件
+- ├─report # pytest生成的报告文件
 - |-─scripts  # 脚本测试运行文件
 - │ └─init.py
 - │ └─test_case.py 

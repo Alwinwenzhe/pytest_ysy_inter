@@ -5,6 +5,9 @@ from uti.LoggerHandler import logger
 
 
 class RequestHandler(object):
+    '''
+    请求相关
+    '''
 
     def __init__(self, case):
         self.case = case
@@ -65,3 +68,8 @@ class RequestHandler(object):
             pass
         else:
             return {}
+
+if __name__ == "__main__":
+    rh = RequestHandler()
+    temp = rh.case_expect
+    print(temp)

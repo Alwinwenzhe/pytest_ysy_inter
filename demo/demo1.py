@@ -3,8 +3,6 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-import xlrd
-
 # row 是行
 # col 是列
 
@@ -26,10 +24,10 @@ def get_excel_data():
     rows, cols = sheet.nrows, sheet.ncols       # 获取到所有的行和列 sheet.nrows方法, sheet.ncols方法
     l = []
     # print(sheet.row_values(0))
-    title = sheet.row_values(0)     # 按照索引取出第一列key
+    title = sheet.row_values(0)     # 按照索引取出第一行key
     # print(title)
     # 获取其他行
-    for i in range(1, rows):
+    for i in range(1, rows):        # 排除第一行
         # print(sheet.row_values(i))
         l.append(dict(zip(title, sheet.row_values(i))))     # 将行和列的值拼接在一起 组合成[{},{}]的样式 zip拉在一起 dict转一下
 

@@ -1,7 +1,6 @@
 import logging
 from settings import conf
 
-
 class LoggerHandler:
     """ 日志操作 """
     _logger_level = {
@@ -42,7 +41,6 @@ class LoggerHandler:
     def get_logger(self):
         return self.logger
 
-
 def logger(log_name='接口测试'):
     return LoggerHandler(
         log_name=log_name,
@@ -51,7 +49,6 @@ def logger(log_name='接口测试'):
         stream_level=conf.LOG_STREAM_LEVEL,
         file_level=conf.LOG_FILE_LEVEL
     ).get_logger
-
 
 if __name__ == '__main__':
     logger().debug('aaaa')
