@@ -28,20 +28,22 @@ class RequestHandler(object):
             response = requests.request(
                 method=self.case['case_method'],
                 url=self.case['case_url'],
-                params=self._check_params()
+                params=self._check_params()             # 调用私有方法，外部类不要去访问它
             )
-            content_type = response.headers['Content-Type']
-            content_type = content_type.split(";")[0].split('/')[-1] if ';' in content_type else \
-            content_type.split("/")[-1]
-            if hasattr(self, '_check_{}_response'.format(content_type)):
-                response = getattr(self, '_check_{}_response'.format(content_type))(response)
-            else:
-                raise '返回类型为: {}, 无法解析'.format(content_type)
+            # ## 这里通过response返回的Content-Type，进行内容格式判断
+            # content_type = response.headers['Content-Type']
+            # content_type = content_type.split(";")[0].split('/')[-1] if ';' in content_type else \
+            # content_type.split("/")[-1]
+            # ## 判定格式后，对返回内容进行取值
+            # if hasattr(self, '_check_{}_response'.format(content_type)):                # hasattr() 函数用于判断对象是否包含对应的属性
+            #     response = getattr(self, '_check_{}_response'.format(content_type))(response)           # getattr() 函数用于返回一个对象属性值，，这里会跳转到_check_html_response
+            # else:
+            #     raise '返回类型为: {}, 无法解析'.format(content_type)
         except:
+            ## 如果格式判断和取值异常，就返回固定内容，这里并不适合我们接口约定，从内容判断和取值都得修改
             logger().error({'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])})
             return {'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])}, self.case['case_expect']
-
-        return response
+        return response.text,self.case['case_expect']
 
     def _check_json_response(self, response):
         """  处理json类型的返回值 """
@@ -65,11 +67,6 @@ class RequestHandler(object):
             """
             做扩展
             """
-            pass
+            return self.case['case_params']
         else:
             return {}
-
-if __name__ == "__main__":
-    rh = RequestHandler()
-    temp = rh.case_expect
-    print(temp)

@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="de0343d4-b71d-4cfe-904c-4d3c2b6b7542" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/接口示例.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/demo/接口示例.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/test_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_case_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_log/test_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/test_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/test_report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uti/AllureHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/AllureHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uti/ExcelHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/ExcelHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_case_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uti/EmailHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/EmailHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uti/LoggerHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/LoggerHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uti/RequestsHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/RequestsHandler.py" afterDir="false" />
     </list>
@@ -31,29 +24,19 @@
     <SUITE FILE_PATH="coverage/pytest_ysy_inter$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1587626318248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/pytest_ysy_inter$RequestsHandler.coverage" NAME="RequestsHandler Coverage Results" MODIFIED="1587629659503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uti" />
     <SUITE FILE_PATH="coverage/pytest_ysy_inter$pytest_in_test_tools_py.coverage" NAME="pytest in test_tools.py Coverage Results" MODIFIED="1583465455252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_tools" />
-    <SUITE FILE_PATH="coverage/pytest_ysy_inter$run.coverage" NAME="run Coverage Results" MODIFIED="1587629828521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytest_ysy_inter$pytest_in_test_case_py.coverage" NAME="pytest in test_case.py Coverage Results" MODIFIED="1587631503073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pytest_ysy_inter$run.coverage" NAME="run Coverage Results" MODIFIED="1587969288901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/demo1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="40" column="90" selection-start-line="40" selection-start-column="90" selection-end-line="40" selection-end-column="90" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uti/RequestsHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="57">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#786#827#0" />
               </folding>
             </state>
           </provider>
@@ -62,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uti/LoggerHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="912">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -74,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uti/ExcelHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -84,31 +67,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/xlrd/__init__.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_case_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uti/AllureHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="247">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allure-report/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -116,20 +81,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="95">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="e#14#26#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/test_case.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_case_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="316">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/allure_html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -167,24 +150,27 @@
         <option value="$PROJECT_DIR$/test_tools/get_token.py" />
         <option value="$PROJECT_DIR$/test_cass/test_case_01.py" />
         <option value="$PROJECT_DIR$/setting/conf.py" />
-        <option value="$PROJECT_DIR$/uti/EmailHandler.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/uti/LoggerHandler.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/demo/demo1.py" />
         <option value="$PROJECT_DIR$/uti/AllureHandler.py" />
         <option value="$PROJECT_DIR$/uti/ExcelHandler.py" />
         <option value="$PROJECT_DIR$/settings/conf.py" />
+        <option value="$PROJECT_DIR$/uti/LoggerHandler.py" />
         <option value="$PROJECT_DIR$/uti/RequestsHandler.py" />
+        <option value="$PROJECT_DIR$/uti/EmailHandler.py" />
         <option value="$PROJECT_DIR$/scripts/test_case.py" />
+        <option value="$PROJECT_DIR$/scripts/test_case_2.py" />
+        <option value="$PROJECT_DIR$/scripts/test_case_1.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="563" />
-    <option name="width" value="1620" />
-    <option name="height" value="1398" />
+    <option name="x" value="1076" />
+    <option name="y" value="156" />
+    <option name="width" value="1298" />
+    <option name="height" value="1265" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,22 +196,12 @@
             <path>
               <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest_ysy_inter" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest_ysy_inter" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest_ysy_inter" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest_ysy_inter" type="462c0819:PsiDirectoryNode" />
-              <item name="uti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +218,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ysy_inter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -336,28 +312,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pytest_ysy_inter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/demo1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytest_ysy_inter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,20 +334,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_case_1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_ysy_inter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_case_1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.demo1" />
       <item itemvalue="Python.ExcelHandler" />
       <item itemvalue="Python.AllureHandler" />
       <item itemvalue="Python.RequestsHandler" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python tests.pytest in test_case_1.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.pytest in test_case_1.py" />
         <item itemvalue="Python.RequestsHandler" />
         <item itemvalue="Python.ExcelHandler" />
         <item itemvalue="Python.AllureHandler" />
-        <item itemvalue="Python.demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +388,11 @@
       <workItem from="1586999187120" duration="1309000" />
       <workItem from="1587086240114" duration="2969000" />
       <workItem from="1587448464355" duration="5339000" />
-      <workItem from="1587607779432" duration="11112000" />
+      <workItem from="1587607779432" duration="13722000" />
+      <workItem from="1587690955596" duration="11794000" />
+      <workItem from="1587863995923" duration="4261000" />
+      <workItem from="1587952693169" duration="765000" />
+      <workItem from="1587953659132" duration="5150000" />
     </task>
     <task id="LOCAL-00001" summary="调试demo1，调试excelhandler">
       <created>1586511490900</created>
@@ -427,13 +401,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586511490901</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="继续调试">
+      <created>1587630008506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587630008507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_tools_py - 2020.03.06 at 11h 22m 28s.xml">
-      <configuration name="pytest in test_tools.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_tools_py - 2020.03.06 at 11h 28m 58s.xml">
       <configuration name="pytest in test_tools.py" configurationId="tests" />
     </history-entry>
@@ -461,21 +439,24 @@
     <history-entry file="pytest_in_test_case_01_py - 2020.03.10 at 10h 27m 05s.xml">
       <configuration name="pytest in test_case_01.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_case_py - 2020.04.23 at 16h 45m 07s.xml">
+      <configuration name="pytest in test_case.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80496000" />
+    <option name="totallyTimeSpent" value="105076000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="451" y="0" width="1296" height="1118" extended-state="0" />
+    <frame x="861" y="125" width="1038" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15993538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19489796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296146" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2755682" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29817444" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2334004" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35681817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51704544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -483,7 +464,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3272727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,23 +478,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调试demo1，调试excelhandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="调试demo1，调试excelhandler" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/uti/AllureHandler.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="继续调试" />
+    <option name="LAST_COMMIT_MESSAGE" value="继续调试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/__init__.py">
@@ -521,9 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_cass/__init__.py" />
     <entry file="file://$PROJECT_DIR$/test_suite/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/report/test_report.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/report/test_report.xml" />
     <entry file="file://$PROJECT_DIR$/test_tools/__init__.py" />
     <entry file="file://$PROJECT_DIR$/test_suite/test_suite_01.py" />
     <entry file="file://$PROJECT_DIR$/test_get_data/get_excel_data_01.py" />
@@ -584,36 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uti/EmailHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uti/LoggerHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_log/test_log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_log/test_log.txt" />
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -624,67 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" column="90" selection-start-line="40" selection-start-column="90" selection-end-line="40" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/xlrd/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uti/ExcelHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uti/AllureHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="12" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uti/RequestsHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,20 +573,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/demo/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="703">
+          <caret line="40" column="90" selection-start-line="40" selection-start-column="90" selection-end-line="40" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_case.py">
+    <entry file="file://$PROJECT_DIR$/uti/AllureHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="114">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/html5lib/_trie/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uti/EmailHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/result/5ee21eb2-1787-4509-8b6f-5df7855f1bb2-result.json" />
+    <entry file="file://$PROJECT_DIR$/report/result/16f9c498-3556-4402-889e-365ef343eba9-container.json" />
+    <entry file="file://$PROJECT_DIR$/report/result/d26f0658-05fe-4f0c-816b-48db2c87d28d-container.json" />
+    <entry file="file://$PROJECT_DIR$/report/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uti/RequestsHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#786#827#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uti/LoggerHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uti/ExcelHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/allure_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_case_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#14#26#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_case_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>

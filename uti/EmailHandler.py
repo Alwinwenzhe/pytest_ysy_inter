@@ -18,13 +18,13 @@ class EmailHandler(object):
 
         # 第三方 SMTP 服务
         mail_host = "smtp.qq.com"  # 设置服务器
-        mail_user = "xxx@qq.com"  # 用户名
+        mail_user = "1079610451@qq.com"  # 用户名
         mail_pass = "xxx"  # 口令
         # 获取口令地址 https://www.cnblogs.com/zhangshan33/p/11943755.html
 
         # 设置收件人和发件人
-        sender = 'xxx@qq.com'
-        receivers = ['xxx@qq.com', ]  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+        sender = '1079610451@qq.com'
+        receivers = ['503106686@qq.com', ]  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
         # 创建一个带附件的实例对象
         message = MIMEMultipart()

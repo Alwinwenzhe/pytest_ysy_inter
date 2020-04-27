@@ -44,10 +44,10 @@ class LoggerHandler:
 def logger(log_name='接口测试'):
     return LoggerHandler(
         log_name=log_name,
-        logger_level=conf.LOG_LEVEL,
-        file_name=conf.LOG_FILE_NAME,
-        stream_level=conf.LOG_STREAM_LEVEL,
-        file_level=conf.LOG_FILE_LEVEL
+        logger_level=conf.LOG_LEVEL,            # 貌似conf中并没有这几个参数？？
+        file_name=conf.LOG_FILE_NAME,           # 貌似conf中并没有这几个参数
+        stream_level=conf.LOG_STREAM_LEVEL,     # 貌似conf中并没有这几个参数
+        file_level=conf.LOG_FILE_LEVEL          # 貌似conf中并没有这几个参数
     ).get_logger
 
 if __name__ == '__main__':
