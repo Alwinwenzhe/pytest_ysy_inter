@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="de0343d4-b71d-4cfe-904c-4d3c2b6b7542" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_case_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_case_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uti/EmailHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/EmailHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uti/LoggerHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/LoggerHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uti/RequestsHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/uti/RequestsHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_case_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +21,7 @@
     <SUITE FILE_PATH="coverage/pytest_ysy_inter$RequestsHandler.coverage" NAME="RequestsHandler Coverage Results" MODIFIED="1587629659503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uti" />
     <SUITE FILE_PATH="coverage/pytest_ysy_inter$pytest_in_test_tools_py.coverage" NAME="pytest in test_tools.py Coverage Results" MODIFIED="1583465455252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_tools" />
     <SUITE FILE_PATH="coverage/pytest_ysy_inter$pytest_in_test_case_py.coverage" NAME="pytest in test_case.py Coverage Results" MODIFIED="1587631503073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pytest_ysy_inter$run.coverage" NAME="run Coverage Results" MODIFIED="1587969288901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytest_ysy_inter$run.coverage" NAME="run Coverage Results" MODIFIED="1588080857244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -78,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="152">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="e#14#26#0" />
               </folding>
@@ -90,29 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/test_case_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/allure_html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allure-report/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="722">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -160,17 +138,17 @@
         <option value="$PROJECT_DIR$/uti/RequestsHandler.py" />
         <option value="$PROJECT_DIR$/uti/EmailHandler.py" />
         <option value="$PROJECT_DIR$/scripts/test_case.py" />
-        <option value="$PROJECT_DIR$/scripts/test_case_2.py" />
         <option value="$PROJECT_DIR$/scripts/test_case_1.py" />
+        <option value="$PROJECT_DIR$/scripts/test_case_2.py" />
         <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1076" />
-    <option name="y" value="156" />
-    <option name="width" value="1298" />
-    <option name="height" value="1265" />
+    <option name="x" value="452" />
+    <option name="y" value="302" />
+    <option name="width" value="1374" />
+    <option name="height" value="1188" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,18 +158,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest_ysy_inter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest_ysy_inter" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pytest_ysy_inter" type="b2602c69:ProjectViewProjectNode" />
@@ -211,6 +183,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +365,11 @@
       <workItem from="1587690955596" duration="11794000" />
       <workItem from="1587863995923" duration="4261000" />
       <workItem from="1587952693169" duration="765000" />
-      <workItem from="1587953659132" duration="5150000" />
+      <workItem from="1587953659132" duration="5262000" />
+      <workItem from="1588036411321" duration="5783000" />
+      <workItem from="1588078450886" duration="1031000" />
+      <workItem from="1588080826373" duration="671000" />
+      <workItem from="1588122967828" duration="3541000" />
     </task>
     <task id="LOCAL-00001" summary="调试demo1，调试excelhandler">
       <created>1586511490900</created>
@@ -408,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587630008507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="继续调试">
+      <created>1587980278619</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587980278619</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -444,18 +428,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105076000" />
+    <option name="totallyTimeSpent" value="116214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="861" y="125" width="1038" height="1012" extended-state="0" />
+    <frame x="570" y="230" width="1099" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19489796" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19692603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2334004" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35681817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51704544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,7 +448,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3272727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33496332" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -627,13 +611,9 @@
     <entry file="file://$PROJECT_DIR$/report/result/5ee21eb2-1787-4509-8b6f-5df7855f1bb2-result.json" />
     <entry file="file://$PROJECT_DIR$/report/result/16f9c498-3556-4402-889e-365ef343eba9-container.json" />
     <entry file="file://$PROJECT_DIR$/report/result/d26f0658-05fe-4f0c-816b-48db2c87d28d-container.json" />
-    <entry file="file://$PROJECT_DIR$/report/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/report/allure_html/index.html" />
+    <entry file="file://$PROJECT_DIR$/report/report.html" />
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html" />
     <entry file="file://$PROJECT_DIR$/uti/RequestsHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -665,20 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/allure_html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_case_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -689,20 +655,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/scripts/test_case_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#14#26#0" />
-          </folding>
+        <state relative-caret-position="722">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_case_2.py">
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="152">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#14#26#0" />
+          </folding>
         </state>
       </provider>
     </entry>

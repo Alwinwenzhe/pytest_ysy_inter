@@ -33,6 +33,11 @@ class Test_Pytest():
             print("test_three方法执行" )
             assert 3-2==1
 
+    @pytest.mark.webtest
+    def test_six(self):
+        print("test_three方法执行")
+        assert 3 - 2 == 6
+
 
 if __name__=="__main__":
     pytest.main(['-s','test_case_2.py','-m=webtest'])

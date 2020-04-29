@@ -14,4 +14,7 @@ import pytest
 
 
 if __name__ == '__main__':
-    pytest.main(['-s','test_case_2.py','-m=webtest'])
+    pytest.main(['-s','scripts/test_case_2.py','-m=webtest'])
+
+    #terminal
+    # pytest scripts / test_case_2.py
